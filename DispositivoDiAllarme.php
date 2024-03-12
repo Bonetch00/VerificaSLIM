@@ -9,4 +9,11 @@ class DispositivoDiAllarme {
         $this->numeroDiTelefono = $numeroDiTelefono;
     }
 
+    function getID(){
+        return $this->id;
+    }
+
+    
 }
+
+?>
